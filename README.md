@@ -83,3 +83,11 @@ Please read [`services/archive-engine/.github/CONTRIBUTING.md`](services/archive
 <div align="center">
   <sub>Managed by Organ II — POIESIS. Companion to <a href="https://github.com/organvm-ii-poiesis/chthon-oneiros">CHTHON-ONEIROS</a>.</sub>
 </div>
+
+<!-- SYSTEM-NAV-START -->
+
+---
+
+<sub>[Portfolio](https://4444j99.github.io/portfolio/) · [System Directory](https://4444j99.github.io/portfolio/directory/) · [ORGAN II · Poiesis](https://organvm-ii-poiesis.github.io/) · Part of the <a href="https://4444j99.github.io/portfolio/directory/">ORGANVM eight-organ system</a></sub>
+
+<!-- SYSTEM-NAV-END -->
