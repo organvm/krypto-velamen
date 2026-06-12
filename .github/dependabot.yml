@@ -1,0 +1,50 @@
+version: 2
+updates:
+  - package-ecosystem: "npm"
+    directories:
+      - "/apps/web-platform"
+    schedule:
+      interval: "weekly"
+    open-pull-requests-limit: 3
+    groups:
+      npm-deps:
+        patterns: ["*"]
+  - package-ecosystem: "pip"
+    directories:
+      - "/services/agent-swarm"
+      - "/services/archive-engine/tools"
+      - "/services/atomizer-engine"
+      - "/services/knowledge-graph"
+      - "/services/lens-engine"
+      - "/services/titan-governor"
+    schedule:
+      interval: "weekly"
+    open-pull-requests-limit: 3
+    groups:
+      pip-deps:
+        patterns: ["*"]
+  - package-ecosystem: "github-actions"
+    directories:
+      - "/"
+    schedule:
+      interval: "weekly"
+    open-pull-requests-limit: 3
+    groups:
+      github-actions-deps:
+        patterns: ["*"]
+  - package-ecosystem: "docker"
+    directories:
+      - "/apps/web-platform"
+      - "/services/agent-swarm"
+      - "/services/archive-engine"
+      - "/services/atomizer-engine"
+      - "/services/identity-service"
+      - "/services/knowledge-graph"
+      - "/services/lens-engine"
+      - "/services/titan-governor"
+    schedule:
+      interval: "weekly"
+    open-pull-requests-limit: 3
+    groups:
+      docker-deps:
+        patterns: ["*"]
